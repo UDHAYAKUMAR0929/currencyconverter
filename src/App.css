@@ -1,0 +1,57 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+.card{
+  background-color:lightblue;
+  display: flex;
+  flex-direction:column;
+  
+  width:500px;
+  height:300px;
+  border-radius:4px;
+  padding:10px;
+  margin:20px;
+}
+h1{
+  font-weight: 800;
+  font-size:27px;
+ text-align: center;  
+ color: rgb(99, 99, 94);
+ margin-bottom:20px;
+}
+label{
+  display:block;
+  margin-bottom:10px;
+  color:rgb(88, 83, 83);
+  font-size: medium;
+  padding-top: 10px;
+  width:100%;
+}
+input{
+  padding: 5px;
+  width:100%;
+  border-radius:5px;
+  outline:none;
+  border:none;
+  border:1px solid #c9b8b8;
+}
+input:focus{
+  border-color: rgb(246, 255, 77);
+}
+p{
+  font-size:20px;
+   color: #3d3a3a;
+  font-size: medium;
+  
+}
+.result{
+  padding-top:15px;
+ display:flex;
+ justify-content:center;
+}
+.result p{
+  border:3px solid #746e6e;
+  padding:5px;
+}
